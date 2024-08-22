@@ -22,4 +22,4 @@ fastapi
 uvicorn
 jinja2
 python-multipart
--e .
+-e . # this use the setup.py to identify or local package us_visa.
