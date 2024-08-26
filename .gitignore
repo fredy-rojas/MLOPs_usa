@@ -1,4 +1,5 @@
 logs/
+notebook/Visadataset.csv
 notebook/EasyVisa.csv
 # ignore python virtual environment
 visa/
