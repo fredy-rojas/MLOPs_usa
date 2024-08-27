@@ -7,7 +7,7 @@ COLLECTION_NAME = 'MongoDB_US_VISA_CollectionName' # os.environ.get('MongoDB_US_
 
 MONGODB_URL_KEY = 'MongoDB_US_VISA_connection_string' # os.environ.get('MongoDB_US_VISA_connection_string')
 
-PIPELINE_NAME: str = "usvisa"
+PIPELINE_NAME: str = "Pipe_usvisa"
 ARTIFACT_DIR: str = "artifact"
 
 
