@@ -1,7 +1,7 @@
 import os
 from datetime import date
 
-DATABASE_NAME = 'MongoDB_US_VISA_DB_name' # os.environ.get('MongoDB_US_VISA_DB_name')
+DATABASE_NAME = 'MongoDB_US_VISA_DB_name' # os.environ.get('MongoDB_US_VISA_DB_name') 
 
 COLLECTION_NAME = 'MongoDB_US_VISA_CollectionName' # os.environ.get('MongoDB_US_VISA_CollectionName')
 
