@@ -64,7 +64,7 @@ class DataIngestion:
         logging.info("Entered split_data_as_train_test method of Data_Ingestion class")
 
         try:
-            train_set, test_set = train_test_split(dataframe, test_size=self.data_ingestion_config.train_test_split_ratio)
+            train_set, test_set = train_test_split(dataframe, test_size=self.data_ingestion_config.train_test_split_ratio, random_state=42)
             logging.info("Performed train test split on the dataframe")
             # logging.info(
             #     "Exited split_data_as_train_test method of Data_Ingestion class"
@@ -103,7 +103,7 @@ class DataIngestion:
             #-----
             # Importing pandas dataframe from mongoDB
             dataframe = self.export_data_into_feature_store()
-            logging.info("Got the data from mongodb")
+            logging.info(f"\n_________________\nGot the data from mongodb. Data_shape {dataframe.shape}")
 
             #-----
             # Split train_test data
