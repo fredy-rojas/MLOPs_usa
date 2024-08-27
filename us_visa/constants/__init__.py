@@ -1,11 +1,11 @@
 import os
 from datetime import date
 
-DATABASE_NAME = os.environ.get('MongoDB_US_VISA_DB_name')
+DATABASE_NAME = 'MongoDB_US_VISA_DB_name' # os.environ.get('MongoDB_US_VISA_DB_name')
 
-COLLECTION_NAME = os.environ.get('MongoDB_US_VISA_CollectionName')
+COLLECTION_NAME = 'MongoDB_US_VISA_CollectionName' # os.environ.get('MongoDB_US_VISA_CollectionName')
 
-MONGODB_URL_KEY = os.environ.get('MongoDB_US_VISA_connection_string')
+MONGODB_URL_KEY = 'MongoDB_US_VISA_connection_string' # os.environ.get('MongoDB_US_VISA_connection_string')
 
 PIPELINE_NAME: str = "usvisa"
 ARTIFACT_DIR: str = "artifact"
