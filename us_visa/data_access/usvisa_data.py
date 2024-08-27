@@ -8,6 +8,17 @@ import numpy as np
 
 
 
+#____________
+import logging
+
+# Set the logger for pymongo to WARNING level, which will suppress DEBUG messages
+logging.getLogger('pymongo').setLevel(logging.WARNING)
+
+# Set the logger for pymongo to suppress all logging, you could also do:
+# logging.getLogger('pymongo').setLevel(logging.ERROR)
+
+
+
 class USvisaData:
     """
     This class help to export entire mongo db record as pandas dataframe
@@ -27,7 +38,7 @@ class USvisaData:
             """
             export entire collectin as dataframe:
             return pd.DataFrame of collection
-            """
+            """            
             if database_name is None:
                 collection = self.mongo_client.database[collection_name]
             else:
