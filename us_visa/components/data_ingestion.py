@@ -100,14 +100,14 @@ class DataIngestion:
         logging.info("Entered initiate_data_ingestion method of Data_Ingestion class")
 
         try:
+            #-----
             # Importing pandas dataframe from mongoDB
             dataframe = self.export_data_into_feature_store()
-
             logging.info("Got the data from mongodb")
 
-            self.split_data_as_train_test(dataframe)
-
             #-----
+            # Split train_test data
+            self.split_data_as_train_test(dataframe)
             logging.info("Performed train test split on the dataset")
 
  
