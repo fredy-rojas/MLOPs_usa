@@ -1,4 +1,6 @@
-notebook/general_info/ # utility for prototyping, small datasets, flowcharts,...
+# utility for prototyping, small datasets, flowcharts,...
+notebook/general_info/ 
+
 Pipe_usvisa/
 notebook/catboost_info
 logs/
