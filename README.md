@@ -1,7 +1,7 @@
 # MLOps Project
 
 ## Dataset
-- **Toy Dataset**: This project uses a dataset on US Visa applications to predict binary approval outcomes [0,1].
+- **Dataset**: This project uses a dataset on US Visa applications to predict binary approval outcomes [0,1].
   - [EasyVisa_Dataset (Kaggle)](https://www.kaggle.com/datasets)
 
 ## Purpose
@@ -12,7 +12,7 @@
 
 ## Experiment Modular Flow - Understanding.
 - **Flowchart**: The modular flow of the experiment is documented in the flowchart:
-  - [MLOps Flowchart](flowcharts/MLOPs-flow.pdf)
+  - /flowcharts/MLOPs-flow.pdf
 
 ## Pending Work
 - **Custom Reports**: Exploring or developing custom reports for various algorithms (ML, DL) across different data types (tabular, text, signal, image) to aid in debugging AI model development and understanding its evolution.
