@@ -1,7 +1,7 @@
 # MLOps Project
 
 ## Dataset
-- **Toy Dataset**: This project uses a dataset on US Visa applications to predict binary approval outcomes [0,1].
+- **Dataset**: This project uses a dataset on US Visa applications to predict binary approval outcomes [0,1].
   - [EasyVisa_Dataset (Kaggle)](https://www.kaggle.com/datasets)
 
 ## Purpose
